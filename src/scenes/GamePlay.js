@@ -37,6 +37,7 @@ class GamePlay extends Phaser.Scene {
     }
 
     create() {
+        
         // parse dialog from JSON file
         this.dialog = this.cache.json.get('dialog');
 
