@@ -102,7 +102,7 @@ class GamePlay extends Phaser.Scene {
             
             this.dialogConvo = 0;
             this.sound.play('ending_sound');
-            this.scene.start("gameoverScene");
+            this.scene.start("gameOverScene");
 
         } else {
             // if not, set current speaker
